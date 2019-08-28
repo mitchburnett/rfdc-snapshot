@@ -1,0 +1,8 @@
+
+*.jou
+*.str
+*.log
+
+hls/snapshot_prj
+vivado/ip
+vivado/rfdc_snapshot_prj
