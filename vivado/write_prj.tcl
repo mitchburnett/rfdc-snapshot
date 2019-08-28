@@ -22,5 +22,6 @@ update_compile_order -fileset sources_1
 launch_runs impl_1 -jobs 4 -to_step write_bitstream
 wait_on_run impl_1
 
-file copy -force $prj_dir/$prj_name/$prj_name.runs/impl_1/${bd_name}_wrapper.bit $prj_dir/$prj_name/bitstream/rfdc_snapshot.bit
-file copy -force $prj_dir/$prj_name/$prj_name.srcs/sources_1/bd/$bd_name/hw_handoff/$bd_name.hwh $prj_dir/$prj_name/bitstream/rfdc_snapshot.hwh
+file mkdir $prj_dir/overlay
+file copy -force $prj_dir/$prj_name/$prj_name.runs/impl_1/${bd_name}_wrapper.bit $prj_dir/overlay/rfdc_snapshot.bit
+file copy -force $prj_dir/$prj_name/$prj_name.srcs/sources_1/bd/$bd_name/hw_handoff/$bd_name.hwh $prj_dir/overlay/rfdc_snapshot.hwh
