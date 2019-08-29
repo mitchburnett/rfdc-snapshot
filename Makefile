@@ -11,5 +11,5 @@ snapshot_prj:
 	cp -r $(snapshot_dir)/$@/sol1/impl $(vivado_dir)/ip/vivado
 
 vivado_prj:
-	cd vivado; vivado -source write_prj.tcl
+	cd vivado; vivado -mode batch -nojournal -nolog -source write_prj.tcl
 
