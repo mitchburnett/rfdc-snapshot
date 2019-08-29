@@ -45,7 +45,7 @@ project.
 
 To build the project
 ```
-cd /path/to/snapshot
+cd /path/to/rfdc-snapshot
 source <XILINX_PATH>/Vivado/2018.3/settings64.sh
 make
 ```
