@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Aug 28 16:31:30 2019" VIVADOVERSION="2018.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Aug 29 12:41:28 2019" VIVADOVERSION="2018.3">
 
   <SYSTEMINFO ARCH="zynquplusRFSOC" BOARD="xilinx.com:zcu111:part0:1.1" DEVICE="xczu28dr" NAME="rfdc_demo" PACKAGE="ffvg1517" SPEEDGRADE="-2"/>
 
@@ -3660,7 +3660,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1908281628" FULLNAME="/snapshot_top_0" HWVERSION="1.0" INSTANCE="snapshot_top_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="snapshot_top" VLNV="xilinx.com:hls:snapshot_top:1.0">
+    <MODULE COREREVISION="1908291238" FULLNAME="/snapshot_top_0" HWVERSION="1.0" INSTANCE="snapshot_top_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="snapshot_top" VLNV="xilinx.com:hls:snapshot_top:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_CTRL" NAME="Reg" RANGE="65536" USAGE="register">
