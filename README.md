@@ -8,7 +8,7 @@ to the PS for analysis.
 ## Project structure and files
 This project is built using Vivado Design Suite 2018.3 with Vivado HLS.
 
-The `hls` directory contains an implementation of an snapshot block for
+The `hls` directory contains an implementation of a snapshot block for
 generating the tlast signal required to packetize data over the DMA using AXIS.
 
 The `py` directory contains the relevant jupyter notebook to run the project.
