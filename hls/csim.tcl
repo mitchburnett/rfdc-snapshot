@@ -1,0 +1,4 @@
+open_project snapshot_prj
+open_solution sol1
+csim_design
+exit

@@ -5,7 +5,7 @@
 #include "hls_stream.h"
 #include "stdint.h" // for uint16_t, couldn't seem to override with ap_uint<16>
 
-typedef ap_int<16> sample_t;
+typedef ap_uint<16> sample_t;
 
 struct cx_sample_t {
 	sample_t re;

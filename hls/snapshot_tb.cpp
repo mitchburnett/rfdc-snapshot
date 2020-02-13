@@ -14,7 +14,7 @@ int main () {
   hls::stream<axis_t<sample_t> > I_strm("RFDC_I_strm");
   hls::stream<axis_t<sample_t> > Q_strm("RFDC_Q_strm");
 
-  uint16_t transfer_size_array[TRANSFERS] = {8, 4, 16};
+  uint16_t transfer_size_array[TRANSFERS] = {16, 16, 16};
 
   for (uint16_t j=0; j < TRANSFERS; j++) {
     uint16_t transfer_size = transfer_size_array[j];
